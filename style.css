@@ -1,0 +1,74 @@
+.html {
+height: 90%;
+}
+
+.body {
+    background: url("background/background-image.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90%;
+}
+
+.title {
+    text-align: center;
+    background: #f9ff27;
+    font-family: cursive;
+    width: 480px;
+    margin-left: 100px;
+    margin-block-end: 0;
+    border: solid;
+    border-width: thin;
+    border-color: #514d42;
+}
+
+.context {
+    display: flex;
+}
+
+.game {
+    margin-left: 100px;
+}
+
+.nextFigure {
+    font-size: 20px;
+    top: 70px;
+    left: 630px;
+    border: 1px solid grey;
+    position: absolute;
+}
+
+.score {
+    font-size: 20px;
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    display: inline;
+}
+
+.scoreN {
+    text-align: center;
+}
+
+.level {
+    font-size: 20px;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+.levelN {
+    text-align: center;
+}
+
+.pause {
+    cursor: pointer;
+    font-size: 25px;
+    position: absolute;
+    left: 650px;
+    top: 400px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    width: 160px;
+    height: 35px;
+}

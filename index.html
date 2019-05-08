@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Tetris</title>
+    <link rel="icon" href="http://www.thinkgeek.com/images/products/zoom/14f8_tetris_stress_blocks.jpg" type="image/png">
+</head>
+
+<body class="body">
+
+<h1 class="title">TETRIS</h1>
+
+<div class="context">
+    <canvas id = "tetris"  width="480" height="650" class="game"></canvas>
+    <canvas id = "next" width="200" height="190" class="nextFigure"></canvas>
+    <div class="score">
+        SCORE <div id = "score" class="scoreN">0</div>
+    </div>
+    <div class="level">
+        LEVEL <div id = "level" class="levelN">1</div>
+    </div>
+<button id="pause" onclick="paused()" class="pause">PAUSE</button>
+</div>
+
+<script src = "main.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+</body>
+</html>
