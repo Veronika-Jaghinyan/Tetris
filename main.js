@@ -193,7 +193,7 @@ function drawFigure(i, j, color) {
     context.fillStyle = color;
     context.fillRect(i * FS, j * FS, FS, FS);
 
-    context.strokeStyle = "#3f4040";
+    context.strokeStyle = "#676767";
     context.strokeRect(i * FS, j * FS, FS, FS);
 }
 
