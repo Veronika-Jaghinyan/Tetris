@@ -162,13 +162,13 @@ const O = [
 ];
 
 let FIGURES = [
-    [I, "#1eb434"],
-    [L, "#f78c39"],
-    [J, "#4348bf"],
-    [S, "#db423c"],
-    [Z, "#5c9fa0"],
-    [T, "#e2d52d"],
-    [O, "#914588"]
+    [I, "red"],
+    [L, "#yellow"],
+    [J, "#yellow"],
+    [S, "yellow"],
+    [Z, "yellow"],
+    [T, "yellow"],
+    [O, "#yellow"]
 ];
 
 
