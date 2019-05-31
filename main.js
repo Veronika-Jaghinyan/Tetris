@@ -5,12 +5,10 @@ let context_next = next.getContext("2d");
 let scoreHTML = document.getElementById("score");
 let levelHTML = document.getElementById("level");
 
-
 const ROW = 16;
 const COLUMN = 12;
 const FS = 40;
 const EMPTY = "#b5b2aa";
-
 
 const I = [
     [
