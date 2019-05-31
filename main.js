@@ -373,13 +373,13 @@ Figure.prototype.collusion = function(i, j, figure) {
 document.addEventListener('keydown', moves);
 
 function moves(event){
-    if(event.keyCode === 37){
+    if(event.keyCode === 37 && !pause && !gameOver){
         p.moveLeft();
-    }else if(event.keyCode === 38){
+    }else if(event.keyCode === 38 && !pause && !gameOver){
         p.rotate();
-    }else if(event.keyCode === 39){
+    }else if(event.keyCode === 39 && !pause && !gameOver){
         p.moveRight();
-    }else if(event.keyCode === 40){
+    }else if(event.keyCode === 40 && !pause && !gameOver){
         p.moveDown();
     }
     else if(event.keyCode === 32) {
